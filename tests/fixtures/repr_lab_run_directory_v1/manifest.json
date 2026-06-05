@@ -1,0 +1,17 @@
+{
+  "contract_name": "repr_lab_run_directory_contract",
+  "contract_version": "1.0.0",
+  "run_directory_kind": "benchmark_run_directory",
+  "producer_repo": "repr-lab",
+  "name": "shared-run-fixture",
+  "dataset": "shared-release-fixture-1-2-0",
+  "model": "vjepa2-vitl16",
+  "seed": 7,
+  "run_id": "shared-run-fixture-001",
+  "created_at": "2026-03-25T00:00:00+00:00",
+  "tags": [
+    "shared-fixture",
+    "published-release",
+    "frozen-feature-localization-probe"
+  ]
+}

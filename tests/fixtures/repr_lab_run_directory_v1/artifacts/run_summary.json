@@ -1,0 +1,63 @@
+{
+  "schema_version": "0.1.0",
+  "run_id": "shared-run-fixture-001",
+  "status": "succeeded",
+  "release_id": "shared-release-fixture-1-2-0",
+  "release_version": "1.2.0",
+  "benchmark_task": "frozen-feature-localization-probe",
+  "model_family": "vjepa2",
+  "model_variant": "vjepa2-vitl16",
+  "selected_layer": "encoder.layer.11",
+  "input_mode": "canonical_materialized",
+  "task_metrics": [
+    "top1_accuracy",
+    "macro_f1"
+  ],
+  "task_outputs": [
+    "benchmark_result",
+    "run_report"
+  ],
+  "metrics": {
+    "macro_f1": 0.88,
+    "top1_accuracy": 0.91
+  },
+  "release_counts": {
+    "annotation_count": 2,
+    "asset_count": 2,
+    "category_count": 2
+  },
+  "release_split_summary": {
+    "train": 1,
+    "val": 1
+  },
+  "sample_counts": {
+    "train": 1,
+    "test": 1
+  },
+  "source_splits": {
+    "train": [
+      "train"
+    ],
+    "test": [
+      "val"
+    ]
+  },
+  "label_names": [
+    "signal-object"
+  ],
+  "feature_layers": [
+    "encoder.layer.11"
+  ],
+  "provenance": {
+    "checkpoint": {
+      "source_kind": "local_manifest",
+      "locator": "facebookresearch/vjepa2"
+    },
+    "train_feature_metadata": {
+      "release_id": "shared-release-fixture-1-2-0"
+    },
+    "test_feature_metadata": {
+      "release_id": "shared-release-fixture-1-2-0"
+    }
+  }
+}

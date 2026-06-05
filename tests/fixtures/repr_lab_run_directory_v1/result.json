@@ -1,0 +1,7 @@
+{
+  "run_id": "shared-run-fixture-001",
+  "selected_layer": "encoder.layer.11",
+  "metrics": {
+    "top1_accuracy": 0.91
+  }
+}

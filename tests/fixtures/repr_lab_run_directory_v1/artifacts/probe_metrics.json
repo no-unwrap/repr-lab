@@ -1,0 +1,14 @@
+{
+  "schema_version": "0.1.0",
+  "run_id": "shared-run-fixture-001",
+  "benchmark_task": "frozen-feature-localization-probe",
+  "model_family": "vjepa2",
+  "model_variant": "vjepa2-vitl16",
+  "release_id": "shared-release-fixture-1-2-0",
+  "release_version": "1.2.0",
+  "selected_layer": "encoder.layer.11",
+  "metrics": {
+    "macro_f1": 0.88,
+    "top1_accuracy": 0.91
+  }
+}

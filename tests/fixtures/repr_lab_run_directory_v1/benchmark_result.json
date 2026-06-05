@@ -1,0 +1,25 @@
+{
+  "contract_name": "repr_lab_run_directory_contract",
+  "contract_version": "1.0.0",
+  "run_directory_kind": "benchmark_run_directory",
+  "producer_repo": "repr-lab",
+  "schema_version": "0.1.0",
+  "run_id": "shared-run-fixture-001",
+  "release_id": "shared-release-fixture-1-2-0",
+  "release_version": "1.2.0",
+  "benchmark_task": "frozen-feature-localization-probe",
+  "model_family": "vjepa2",
+  "model_variant": "vjepa2-vitl16",
+  "status": "succeeded",
+  "started_at": "2026-03-25T00:00:00+00:00",
+  "finished_at": "2026-03-25T00:01:00+00:00",
+  "metrics": {
+    "macro_f1": 0.88,
+    "top1_accuracy": 0.91
+  },
+  "artifact_paths": {
+    "probe_metrics": "artifacts/probe_metrics.json",
+    "run_summary": "artifacts/run_summary.json",
+    "run_report": "analysis/run_report.md"
+  }
+}
